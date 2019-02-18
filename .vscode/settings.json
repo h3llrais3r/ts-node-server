@@ -1,4 +1,5 @@
 {
+  // VS Code settings
   "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
@@ -6,5 +7,16 @@
     "source.organizeImports": true
   },
   "javascript.preferences.quoteStyle": "single",
-  "typescript.preferences.quoteStyle": "single"
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // Prettier settings
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  // Beautify settings
+  "beautify.config": {
+    "indent_size": 2,
+    "max_preserve_newlines": 1,
+    "wrap_attributes": "preserve-aligned"
+  }
 }
