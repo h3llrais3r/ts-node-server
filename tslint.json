@@ -1,8 +1,7 @@
 {
   "defaultSeverity": "error",
   "extends": [
-    "tslint:recommended", //
-    "tslint-config-prettier"
+    "tslint:recommended"
   ],
   "jsRules": {},
   "rules": {
@@ -12,18 +11,7 @@
       "single", // Force single quote
       "avoid-escape"
     ],
-    "trailing-comma": [
-      true,
-      {
-        "singleline": "never",
-        "multiline": {
-          "objects": "never",
-          "arrays": "never",
-          "functions": "never",
-          "typeLiterals": "ignore"
-        }
-      }
-    ]
+    "trailing-comma": false
   },
   "rulesDirectory": []
 }

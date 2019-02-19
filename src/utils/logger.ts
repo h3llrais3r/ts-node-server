@@ -9,7 +9,7 @@ const logLevel = process.env.NODE_ENV === 'development' ? 'debug' : 'info';
 export const logger: Logger = winston.createLogger({
   level: logLevel,
   transports: [
-    new winston.transports.Console(), //
+    new winston.transports.Console(),
     new winston.transports.File({ filename: 'server.log' })
   ]
 });
